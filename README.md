@@ -1,5 +1,5 @@
 # Mapping-disasters-using-twitter
-part of a larger project which successfully captures live twitter data and maps it in real time. You can find the fiinal project on my Github under Projects. 
+This code is part of a larger project which successfully captures live twitter data and maps it in real time. You can find the fiinal project on my Github under Projects. 
 
 
  A huge issue facing this project is that the large majority of tweets which are scraped are not accompanied by any location information. When you use tweepy to scrape twitter or any library for that matter, only  a very small portion of users have their location turned on and so you’ll get very few tweets with location data included.  We noticed that this small slice of the data is what past DSI projects used to map. We really wanted to improve upon this because we didn’t think it was great to map disaster tweets based on maybe 30% of your entire disaster data. To better access location data We came up with a plan to actually scrape each disaster tweet and pull out any city that was mentioned within the tweet.  
